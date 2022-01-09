@@ -28,6 +28,16 @@ Because you need to connect three webcams to your machine you should check if ev
 
 ### Get Autodarts running
 
+To get the Autodarts program running you need to download the latest version auf Autodarts wich fits to your device. Please note that the version differs between Jetson Nano, Raspberry Pi or a desktop computer or laptop.
+
+Once you have donwloaded the program you'll need to extract them with the the unzip command. After this is done you need to add execution rights to the autodarts tool.
+
+    chmod +x autodarts
+
+Now everything should be working and you can start the tool with the following command
+
+    ./autodarts
+
 ## Board Manager
 
 The board manager is to setup and adjust your cameras. Once you run your autodarts program on your Linux system you can access the Board Manager via the ip address of your device and the port 3180. If you're running the program on a local computer like a laptop you'll need to type this in your browsers url: http://127.0.0.1:3180 or if you're using a Raspberry Pi or the Jetson Nano than you need to replace 127.0.0.1 with your ip address of the device.
