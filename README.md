@@ -31,6 +31,7 @@ Because you need to connect three webcams to your machine you should check if ev
 Parts of the setup:
 
 - Winmau Blade 5
+- Winmau Plasma LED ring
 - McDart Catchring Premium
 - Aukey PC-LM1E Cams
 - Ubuntu 20.04 laptop
