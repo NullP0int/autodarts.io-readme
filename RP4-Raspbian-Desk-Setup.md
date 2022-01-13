@@ -26,7 +26,7 @@ Its a fairly simple manual and you have to connect a Monitor, Keyboard and Mouse
 <img src="images/piimageros.jpg" width="30%" height="30%">
 
 - Click on SD-Card and select your SD-Card-Drive
-*for most of the time you only should see one drive to select*
+- *for most of the time you only should see one drive to select*
 <img src="images/piimagerdrive.jpg" width="30%" height="30%">
 
 - Hit write!
