@@ -120,6 +120,7 @@ sudo apt-get install v4l-utils
 v4l2-ctl --list-devices
 ```
 <img src="images/consolev4l2.jpg" width="30%" height="30%">
+
 - Note down the first entry below your 3 cameras
   - In my case it's Video0 / Video 4 / Video2
   - Theese are your Camera ID's for late configuration in Board Manager
