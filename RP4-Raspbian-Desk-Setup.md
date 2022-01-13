@@ -160,6 +160,7 @@ autodarts
 ## Cheering up - it's running!
 
 - Continue with next Steps like Configuration or Calibration according to the Full Manual
+  - [The Full Manual](https://github.com/autodarts/docs#readme)
 - Best would be to get the Autodarts in the Autostart so that the program is running when you power on the Raspberry Pi
   -  [This Section of the Manual for Autodarts](https://github.com/autodarts/docs#setup-autostart-for-autodarts)
 
