@@ -51,6 +51,7 @@ This takes about 5 minutes, depending on your SD-Card and Card-Reader and if fin
 <img src="images/piwiz.jpg" width="30%" height="30%">
 
 - Make your way through this wizard and select your Wifi-Connection. Updates are not Mandatory at this point, as it would take some time and is not needed.
+- Also you CAN change your Password, but unless you are sure how to use Linux and its console i would recommend to leave it as it is.
 
 <img src="images/piwiz.jpg" width="30%" height="30%"> <img src="images/piwizcount.jpg" width="30%" height="30%"> <img src="images/piwizcountpw.jpg" width="30%" height="30%">
 <img src="images/piwizwifi.jpg" width="30%" height="30%"> <img src="images/piwizupdate.jpg" width="30%" height="30%">
@@ -61,3 +62,23 @@ This takes about 5 minutes, depending on your SD-Card and Card-Reader and if fin
   - VNC is a virtual Desktop environment to be used with Windows *aka : nice to have feature*
 
 <img src="images/piwizconfig.jpg" width="30%" height="30%"> <img src="images/piwizconfig2.jpg" width="30%" height="30%">
+
+- Now you have finished your Linux and are able to control it from your Windows PC, or you can continue on this Raspberry Desktop
+- As this is the Desktop Guide it continues on the Raspberry Pi Desktop
+
+
+## Console work:
+
+- Open up your Console / Command Prompt. Its the black little Button on the Start-Bar
+<img src="images/console.jpg" width="30%" height="30%">
+
+- It will open up and show you this prompt (depending on your username, if you had changed while setup)
+<img src="images/consolep.jpg" width="30%" height="30%">
+
+# Install OpenCV:
+* Thanks to [this Guide](https://lindevs.com/install-precompiled-opencv-on-raspberry-pi/?fbclid=IwAR1sQwRH1FWbewNg4_Aomga-ZBbx3Di25C2mHrVqGTVxwiIKS31R0Pa8q5Y)
+
+- with open console type in, or copy over:
+```
+wget https://github.com/prepkg/opencv-raspberrypi/releases/latest/download/opencv.deb
+```
