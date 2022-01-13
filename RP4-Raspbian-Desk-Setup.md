@@ -114,13 +114,13 @@ rm -rf opencv.deb
 ```
 sudo apt-get install v4l-utils
 ```
-<img src="images/consolev4l.jpg" width="30%" height="30%">
+<img src="images/consoleov4l.jpg" width="30%" height="30%">
 
 - after installing this you can list your USB-devices with the following command
 ```
 v4l2-ctl --list-devices
 ```
-<img src="images/consolev4l2.jpg" width="30%" height="30%">
+<img src="images/consoleov4l2.jpg" width="30%" height="30%">
 
 - Note down the first entry below your 3 cameras
   - In my case it's Video0 / Video 4 / Video2
@@ -128,9 +128,16 @@ v4l2-ctl --list-devices
 
 ___
 
+### Get Autodarts running
+
 - Now your are ready to get the Autodarts - File
 - Assuming you get your OK from the developer you should have the Download-Link
-- In the console type folling command:
+  - Otherwise contribute in the Discord Server and call out in the specific Channel that you are ready to go
+  - You then will get the Download Link and your User-Credentials (aka: Board-ID and API-Key)
+- In the console type follwing command:
 ```
 wget *DOWNLAODLINK*
+```
+
+
 
