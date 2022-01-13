@@ -145,6 +145,19 @@ wget *DOWNLAODLINK*
 sudo unzip autodarts-0.15.5-pi-armv7l.zip -d /usr/local/bin/
 ```
 
+- Create User-rights for Autodarts
+```
+sudo chmod +x /usr/local/bin/autodarts
+```
+
+- And now Finally:
+```
+autodarts
+```
+<img src="images/consoleauto.jpg" width="30%" height="30%">
+
+
+
 
 
 
