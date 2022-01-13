@@ -18,7 +18,7 @@ Its a fairly simple manual and you have to connect a Monitor, Keyboard and Mouse
 ### Virtual
 - LAN, or WLAN connection
 - Raspberry Pi Imager - [click to download](https://downloads.raspberrypi.org/imager/imager_latest.exe)
-- VNC Viwer Win 32/64 *optional* - [click to download](https://www.realvnc.com/download/file/viewer.files/VNC-Viewer-6.21.1109-Windows.exe)
+- VNC Viwer Win 32/64 - [click to download](https://www.realvnc.com/download/file/viewer.files/VNC-Viewer-6.21.1109-Windows.exe) | *optional*
 
 
 
