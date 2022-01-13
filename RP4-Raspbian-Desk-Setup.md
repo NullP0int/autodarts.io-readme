@@ -46,11 +46,16 @@ This takes about 5 minutes, depending on your SD-Card and Card-Reader and if fin
 
 ## Prepare Linux Desktop:
 
-When your Raspberry Pi has started its greeting you with a friendly Setup-Wizard
+- When your Raspberry Pi has started its greeting you with a friendly Setup-Wizard
 
 <img src="images/piwiz.jpg" width="30%" height="30%">
 
-Make your way through this wizard and select your Wifi-Connection. Updates are not Mandatory at this point, as it would take some time and is not needed.
+- Make your way through this wizard and select your Wifi-Connection. Updates are not Mandatory at this point, as it would take some time and is not needed.
 
 <img src="images/piwiz.jpg" width="30%" height="30%"> <img src="images/piwizcount.jpg" width="30%" height="30%"> <img src="images/piwizcountpw.jpg" width="30%" height="30%">
 <img src="images/piwizwifi.jpg" width="30%" height="30%"> <img src="images/piwizupdate.jpg" width="30%" height="30%">
+
+- After finishing the Setup-Wizard its absolutely mandatory to enable SSH first. This will be your connection to your Windows PC
+- For this click on the Raspberry-Menu and got to "Preferences -> Raspberry Pi Configuration"
+- In the configuration Window go to the "Interfaces"-Tab and enable SSH and if you like VNC
+  - VNC is a virtual Desktop environment to be used with Windows
