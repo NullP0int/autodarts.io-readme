@@ -3,7 +3,7 @@
 This Manual should guide you through a setup using a Windows PC to prepare the Raspberry Pi Image and then successfully start autodarts.
 Its a fairly simple manual and you have to connect a Monitor, Keyboard and Mouse to your Raspberry to properly set it up.But you can disconnect it from your PC and put it over to the Raspberry if you don't have a second set of theese, you won't need it at the same time.
 
-*Let's a go!
+*Let's a go!*
 
 
 
@@ -76,9 +76,27 @@ This takes about 5 minutes, depending on your SD-Card and Card-Reader and if fin
 <img src="images/consolep.jpg" width="30%" height="30%">
 
 ### Install OpenCV:
-* Thanks to [this Guide](https://lindevs.com/install-precompiled-opencv-on-raspberry-pi/?fbclid=IwAR1sQwRH1FWbewNg4_Aomga-ZBbx3Di25C2mHrVqGTVxwiIKS31R0Pa8q5Y)
+* Thanks to [this Guide](https://lindevs.com/install-precompiled-opencv-on-raspberry-pi/?fbclid=IwAR1sQwRH1FWbewNg4_Aomga-ZBbx3Di25C2mHrVqGTVxwiIKS31R0Pa8q5Y) i just had to copy it. *Shame on me*
 
 - with open console type in, or copy over:
+
+Connect to Raspberry Pi via SSH. Download the .deb package from releases page of the repository:
+
 ```
 wget https://github.com/prepkg/opencv-raspberrypi/releases/latest/download/opencv.deb
+```
+Execute the following command to install OpenCV:
+
+```
+sudo apt install -y ./opencv.deb
+```
+We can run opencv_version command to check version of OpenCV:
+
+```
+opencv_version
+```
+The .deb package is no longer needed, you can remove it:
+
+```
+rm -rf opencv.deb
 ```
