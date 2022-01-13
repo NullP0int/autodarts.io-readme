@@ -5,7 +5,7 @@ Its a fairly simple manual and you have to connect a Monitor, Keyboard and Mouse
 
 *Let's a go!*
 
-
+___
 
 # Needed:
 
@@ -21,7 +21,7 @@ Its a fairly simple manual and you have to connect a Monitor, Keyboard and Mouse
 - Raspberry Pi Imager - [click to download](https://downloads.raspberrypi.org/imager/imager_latest.exe)
 - VNC Viwer Win 32/64 - [click to download](https://www.realvnc.com/download/file/viewer.files/VNC-Viewer-6.21.1109-Windows.exe) | *optional*
 
-
+___
 
 # Prepare SD Card:
 
@@ -43,7 +43,7 @@ This takes about 5 minutes, depending on your SD-Card and Card-Reader and if fin
 
 - Now you can insert it to your Raspberry Pi and fire it up.
 
-
+___
 
 # Prepare Linux Desktop:
 
@@ -67,6 +67,7 @@ This takes about 5 minutes, depending on your SD-Card and Card-Reader and if fin
 - Now you have finished your Linux and are able to control it from your Windows PC, or you can continue on this Raspberry Desktop
 - As this is the Desktop Guide it continues on the Raspberry Pi Desktop
 
+___
 
 ## Console work:
 
@@ -128,3 +129,8 @@ v4l2-ctl --list-devices
 ___
 
 - Now your are ready to get the Autodarts - File
+- Assuming you get your OK from the developer you should have the Download-Link
+- In the console type folling command:
+```
+wget *DOWNLAODLINK*
+
