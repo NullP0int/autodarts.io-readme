@@ -47,6 +47,7 @@ This takes about 5 minutes, depending on your SD-Card and Card-Reader and if fin
 ## Prepare Linux Desktop:
 
 When your Raspberry Pi has started its greeting you with a friendly Setup-Wizard
+
 <img src="images/piwiz.jpg" width="30%" height="30%">
 
 Make your way through this wizard and select your Wifi-Connection. Updates are not Mandatory at this point, as it would take some time and is not needed.
