@@ -17,4 +17,4 @@ Let's a go!
 ## Prepare SD Card:
 
 - Put your SD Card in the Card Reader and connect it to your Windows PC
-- Open Raspberry Pi Imager ![](/images/piimager.jpg)
+- Open Raspberry Pi Imager <img src="images/piimage.JPG" width="40%" height="40%">
