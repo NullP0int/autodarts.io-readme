@@ -32,4 +32,4 @@ Its a fairly simple manual and you have to connect a Monitor, Keyboard and Mouse
 - Hit write!
 
 This takes about 5 minutes, depending on your SD-Card and Card-Reader and if finished should tell you to take out the SD-Card
-<img src="images/piimagerfinished.jpg" width="30%" height="30%">
+<img src="images/piimagefinished.jpg" width="30%" height="30%">
