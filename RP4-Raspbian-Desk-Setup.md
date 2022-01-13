@@ -84,19 +84,19 @@ Download the .deb package from releases page of the repository:
 ```
 wget https://github.com/prepkg/opencv-raspberrypi/releases/latest/download/opencv.deb
 ```
-<img src="images/consoleocv.jpg" width="30%" height="30%">
+<img src="images/consoleocv1.jpg" width="30%" height="30%">
 
 Execute the following command to install OpenCV:
 ```
 sudo apt install -y ./opencv.deb
 ```
-<img src="images/consoleocv1.jpg" width="30%" height="30%">
+<img src="images/consoleocv2.jpg" width="30%" height="30%">
 
 We can run opencv_version command to check version of OpenCV:
 ```
 opencv_version
 ```
-<img src="images/consoleocv2.jpg" width="30%" height="30%">
+<img src="images/consoleocv3.jpg" width="30%" height="30%">
 
 The .deb package is no longer needed, you can remove it:
 ```
