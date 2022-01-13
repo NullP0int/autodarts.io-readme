@@ -58,4 +58,6 @@ This takes about 5 minutes, depending on your SD-Card and Card-Reader and if fin
 - After finishing the Setup-Wizard its absolutely mandatory to enable SSH first. This will be your connection to your Windows PC
 - For this click on the Raspberry-Menu and got to "Preferences -> Raspberry Pi Configuration"
 - In the configuration Window go to the "Interfaces"-Tab and enable SSH and if you like VNC
-  - VNC is a virtual Desktop environment to be used with Windows
+  - VNC is a virtual Desktop environment to be used with Windows *aka : nice to have feature*
+
+<img src="images/piwizconfig.jpg" width="30%" height="30%"> <img src="images/piwizconfig2.jpg" width="30%" height="30%">
