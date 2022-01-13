@@ -12,6 +12,7 @@ Its a fairly simple manual and you have to connect a Monitor, Keyboard and Mouse
 ## Physical
 - Windows PC
 - Raspberry Pi (4)  / *Monitor, Keyboard, Mouse
+  - with connected Cameras to USB
 - SD Card
 - Card Reader
 
@@ -101,4 +102,20 @@ opencv_version
 The .deb package is no longer needed, you can remove it:
 ```
 rm -rf opencv.deb
+```
+
+- You have successfully installed OpenCV ( Ai - Camera - Future Shit)
+- Next step is to install some USB - Utilities
+
+### Install v4l-utils (and get your Camera-ID's):
+
+- Open up your console and enter
+```
+sudo apt-get install v4l-utils
+```
+<img src="images/consolev4l.jpg" width="30%" height="30%">
+
+- after installing this you can list your USB-devices with the following command
+```
+v4l2-ctl --list-devices
 ```
