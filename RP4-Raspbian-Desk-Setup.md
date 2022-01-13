@@ -25,7 +25,8 @@ Its a fairly simple manual and you have to connect a Monitor, Keyboard and Mouse
 - Click on OS and select topmost option "Raspberry PI OS (32-bit)
 <img src="images/piimageros.jpg" width="30%" height="30%">
 
-- Click on SD-Card and select your SD-Card-Drive *for most of the time you only should see one drive to select*
+- Click on SD-Card and select your SD-Card-Drive
+*for most of the time you only should see one drive to select*
 <img src="images/piimagerdrive.jpg" width="30%" height="30%">
 
 - Hit write!
