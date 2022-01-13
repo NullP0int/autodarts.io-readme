@@ -80,23 +80,25 @@ This takes about 5 minutes, depending on your SD-Card and Card-Reader and if fin
 
 - with open console type in, or copy over:
 
-Connect to Raspberry Pi via SSH. Download the .deb package from releases page of the repository:
-
+Download the .deb package from releases page of the repository:
 ```
 wget https://github.com/prepkg/opencv-raspberrypi/releases/latest/download/opencv.deb
 ```
-Execute the following command to install OpenCV:
+<img src="images/consoleocv.jpg" width="30%" height="30%">
 
+Execute the following command to install OpenCV:
 ```
 sudo apt install -y ./opencv.deb
 ```
-We can run opencv_version command to check version of OpenCV:
+<img src="images/consoleocv1.jpg" width="30%" height="30%">
 
+We can run opencv_version command to check version of OpenCV:
 ```
 opencv_version
 ```
-The .deb package is no longer needed, you can remove it:
+<img src="images/consoleocv2.jpg" width="30%" height="30%">
 
+The .deb package is no longer needed, you can remove it:
 ```
 rm -rf opencv.deb
 ```
