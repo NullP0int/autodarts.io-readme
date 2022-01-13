@@ -1,11 +1,14 @@
 # Setup with RP4, using Raspbian with Desktop
 
 This Manual should guide you through a setup using a Windows PC to prepare the Raspberry Pi Image and then successfully start autodarts.
-Its a fairly simple manual and you have to connect a Monitor, Keyboard and Mouse to your Raspberry to properly set it up.But you can disconnect it from your PC and put it over to the Raspberry if you don't have a second set of theese.
+Its a fairly simple manual and you have to connect a Monitor, Keyboard and Mouse to your Raspberry to properly set it up.But you can disconnect it from your PC and put it over to the Raspberry if you don't have a second set of theese, you won't need it at the same time.
 
 *Let's a go!
 
+
+
 ## Needed:
+
 ### Physical
 - Windows PC
 - Raspberry Pi (4)  / *Monitor, Keyboard, Mouse
@@ -15,6 +18,9 @@ Its a fairly simple manual and you have to connect a Monitor, Keyboard and Mouse
 ### Virtual
 - LAN, or WLAN connection
 - Raspberry Pi Imager - [click to download](https://downloads.raspberrypi.org/imager/imager_latest.exe)
+- VNC Viwer Win 32/64 *optional - [click to download](https://www.realvnc.com/download/file/viewer.files/VNC-Viewer-6.21.1109-Windows.exe)
+
+
 
 ## Prepare SD Card:
 
@@ -33,3 +39,11 @@ Its a fairly simple manual and you have to connect a Monitor, Keyboard and Mouse
 
 This takes about 5 minutes, depending on your SD-Card and Card-Reader and if finished should tell you to take out the SD-Card
 <img src="images/piimagefinished.jpg" width="30%" height="30%">
+
+- Now you can insert it to your Raspberry Pi and fire it up.
+
+
+
+## Prepare Linux Desktop:
+
+when your Raspberry Pi has started its greeting you with a friendly 
