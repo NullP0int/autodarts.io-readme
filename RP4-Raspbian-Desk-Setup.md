@@ -138,7 +138,8 @@ ___
 ```
 wget *DOWNLAODLINK*
 ```
-- Then unzip it with the following command: *Important to change the specific filename if the version Changes!!!*
+- Then unzip it with the following command:
+*Important to change the specific filename if the version Changes!!!*
 ```
 sudo unzip autodarts-0.15.5-pi-armv7l.zip -d /usr/local/bin/
 ```
