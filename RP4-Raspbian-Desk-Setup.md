@@ -134,10 +134,15 @@ ___
 - Assuming you get your OK from the developer you should have the Download-Link
   - Otherwise contribute in the Discord Server and call out in the specific Channel that you are ready to go
   - You then will get the Download Link and your User-Credentials (aka: Board-ID and API-Key)
-- In the console type follwing command:
+- In the console type follwing command to donwload the File:
 ```
 wget *DOWNLAODLINK*
 ```
+- Then unzip it with the following command: *Important to change the specific filename if the version Changes!!!*
+```
+sudo unzip autodarts-0.15.5-pi-armv7l.zip -d /usr/local/bin/
+```
+
 
 
 
