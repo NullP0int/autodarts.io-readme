@@ -7,22 +7,22 @@ Its a fairly simple manual and you have to connect a Monitor, Keyboard and Mouse
 
 
 
-## Needed:
+# Needed:
 
-### Physical
+## Physical
 - Windows PC
 - Raspberry Pi (4)  / *Monitor, Keyboard, Mouse
 - SD Card
 - Card Reader
 
-### Virtual
+## Virtual
 - LAN, or WLAN connection
 - Raspberry Pi Imager - [click to download](https://downloads.raspberrypi.org/imager/imager_latest.exe)
 - VNC Viwer Win 32/64 - [click to download](https://www.realvnc.com/download/file/viewer.files/VNC-Viewer-6.21.1109-Windows.exe) | *optional*
 
 
 
-## Prepare SD Card:
+# Prepare SD Card:
 
 - Put your SD Card in the Card Reader and connect it to your Windows PC
 - Open Raspberry Pi Imager
@@ -44,7 +44,7 @@ This takes about 5 minutes, depending on your SD-Card and Card-Reader and if fin
 
 
 
-## Prepare Linux Desktop:
+# Prepare Linux Desktop:
 
 - When your Raspberry Pi has started its greeting you with a friendly Setup-Wizard
 
@@ -75,7 +75,7 @@ This takes about 5 minutes, depending on your SD-Card and Card-Reader and if fin
 - It will open up and show you this prompt (depending on your username, if you had changed while setup)
 <img src="images/consolep.jpg" width="30%" height="30%">
 
-# Install OpenCV:
+### Install OpenCV:
 * Thanks to [this Guide](https://lindevs.com/install-precompiled-opencv-on-raspberry-pi/?fbclid=IwAR1sQwRH1FWbewNg4_Aomga-ZBbx3Di25C2mHrVqGTVxwiIKS31R0Pa8q5Y)
 
 - with open console type in, or copy over:
